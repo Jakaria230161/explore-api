@@ -3,9 +3,9 @@
 //     .then(response => console.log(response)); // .json is not similar but close to  JSON.pares.
     // .then(json => console.log(json))
 
-// fetch("https://jsonplaceholder.typicode.com/todos/1")
-//     .then(res => res.json())
-//     .then(json => console.log(json));
+fetch("https://jsonplaceholder.typicode.com/todos/1")  // > url = get the data from the url
+    .then(res => res.json())  // > convert the data to json object
+    .then(json => console.log(json));  // > displays the json object
 
 
 function loadData() {

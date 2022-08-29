@@ -61,4 +61,8 @@ console.log(shop1JSON);
 console.log(shopObj1);
 
 
-// note : json a convert korte chaile stringify use korte hobe r string format a ache oita object a neowar jonne json.parse use korte hobe. 
+// note : json a convert korte chaile stringify use korte hobe r string format a ache oita object a neowar jonne json.parse use korte hobe.
+
+
+// Json to parse means it is converted a object which is u can access or see it expand.
+// object to stringify it is converted a string which is u can not access , u just get return a string object.
